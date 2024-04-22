@@ -6,16 +6,17 @@ The auth.py file must contain your Spotify credentials.
 
 Adjust this two variables in the auth.py file:
 
-CLIENT_ID = '<enter your client id here>'
-CLIENT_SECRET = '<enter your client secret here>'
 
+<code>CLIENT_ID = '&lt;enter your client id here&gt;'
+CLIENT_SECRET = '&lt;enter your client secret here&gt;'</code>
+  
 Also, you have to enter two playlists IDs in main.py:
 
-DISCOVER_WEEKLY_ID = '<enter the Weekly Discover Playlist id here>' 
-SAVE_TO_ID = '<enter the newly created Playlist id here - must exist>'
+<code>DISCOVER_WEEKLY_ID = '&lt;enter the Weekly Discover Playlist id here&gt;' 
+SAVE_TO_ID = '&lt;enter the newly created Playlist id here - must exist&gt;'</code>
 
 At the first access, spotify will ask for a token.
 It will create an URL that you must access, and copy/paste the result URL with the token.
 Copy the token and update it in main.py:
 
-REFRESH_TOKEN = '<enter this very large token string here>'
+<code>REFRESH_TOKEN = '&lt;enter this very large token string here&gt;'</code>
